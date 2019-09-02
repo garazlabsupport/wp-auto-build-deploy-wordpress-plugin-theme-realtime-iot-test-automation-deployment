@@ -24,23 +24,23 @@ Continuous integration usually involves running some kind of testing as a first
 
 After you Git push :
 
-Build your plugin, theme files.
-Run the unit tests, integration tests, functional test for your plugin, theme on your server environment.
-Run continuous integration on server environment.
-Run continuous deployment on server environment.
-Not testing the site as a whole but just a plugin or a theme.
-Test your plugin in several different PHP, Wordress versions available on your server environment.
-Run CodeCeption integration test, acceptance test, functional test.
-Run CodeSniffer for WordPress Coding Standards checks.
-Run WordPress Coding Standards checks.
-Deploy plugin, theme zip file to Wordpress.org.
-Run JavaScript Code Style checker.
-Run PHP Compatibility sniffs.
-Do I need a WP Auto Build Deploy plugin?
-Everyday you push lots of changes of your plugin & theme to your Wordpress.org. It kills your time a lot.
-Let WP Auto Build Deploy deploy your themes and plugins directly from Git push.
-Enable your code automagically update on every Git push.
-Stop copying and pasting files over FTP, it's insecure.
+1. Build your plugin, theme files.
+2. Run the unit tests, integration tests, functional test for your plugin, theme on your server environment.
+3. Run continuous integration on server environment.
+4. Run continuous deployment on server environment.
+5. Not testing the site as a whole but just a plugin or a theme.
+6. Test your plugin in several different PHP, Wordress versions available on your server environment.
+7. Run CodeCeption integration test, acceptance test, functional test.
+8. Run CodeSniffer for WordPress Coding Standards checks.
+9. Run WordPress Coding Standards checks.
+10. Deploy plugin, theme zip file to Wordpress.org.
+11. Run JavaScript Code Style checker.
+12. Run PHP Compatibility sniffs.
+## Do I need a WP Auto Build Deploy plugin?
+1. Everyday you push lots of changes of your plugin & theme to your Wordpress.org. It kills your time a lot.
+2. Let WP Auto Build Deploy deploy your themes and plugins directly from Git push.
+3. Enable your code automagically update on every Git push.
+4. Stop copying and pasting files over FTP, it's insecure.
 
 ## Features of WP Auto Build Deploy plugin:
 Never again copy files over FTP.
@@ -49,7 +49,7 @@ Secure your code with SSH deployment.
 Works out-of-the-box.
 You have a WordPress plugin, theme on the repo, but also hosted on GitHub. To automatically deploy your plugin, theme to the WordPress.org repo.
 Continuous integration usually involves running some kind of testing as a first phase; in this plugin we set up a Nginx web-server on Travis CI to run acceptance and functional like tests.
-How WP Auto Build Deploy plugin works?
+## How WP Auto Build Deploy plugin works?
 
 Follow these steps to work with WP Auto Build Deploy in minutes!
 
@@ -60,7 +60,7 @@ Please enter Wordpress.org username, plugin/theme folder name, plugin/theme vers
 
 Thats it! Now for each push on Git branch, it will trigger build, test, deploy to Wordpress.org.
 
-To get started with Travis CI
+## To get started with Travis CI
 Go to Travis-ci.com and Sign up with GitHub.
 Accept the Authorization of Travis CI. You’ll be redirected to GitHub.
 Click the green Activate button, and select the repositories you want to use with Travis CI.
