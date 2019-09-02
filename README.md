@@ -43,24 +43,24 @@ After you Git push :
 4. Stop copying and pasting files over FTP, it's insecure.
 
 ## Features of WP Auto Build Deploy plugin:
-Never again copy files over FTP.
-It has automatic deployments to the server when code is pushed to the master branch, I’ve gotten used to not having to physically do anything to deploy the code!
-Secure your code with SSH deployment.
-Works out-of-the-box.
-You have a WordPress plugin, theme on the repo, but also hosted on GitHub. To automatically deploy your plugin, theme to the WordPress.org repo.
-Continuous integration usually involves running some kind of testing as a first phase; in this plugin we set up a Nginx web-server on Travis CI to run acceptance and functional like tests.
-## How WP Auto Build Deploy plugin works?
+1. Never again copy files over FTP.
+2. It has automatic deployments to the server when code is pushed to the master branch, I’ve gotten used to not having to physically do anything to deploy the code!
+3. Secure your code with SSH deployment.
+4. Works out-of-the-box.
+5. You have a WordPress plugin, theme on the repo, but also hosted on GitHub. To automatically deploy your plugin, theme to the WordPress.org repo.
+6. Continuous integration usually involves running some kind of testing as a first phase; in this plugin we set up a Nginx web-server on Travis CI to run acceptance and functional like tests.
 
+## How WP Auto Build Deploy plugin works?
 Follow these steps to work with WP Auto Build Deploy in minutes!
 
-Get WP Auto Build Deploy. Download the plugin files.
-In the WP admin, go to Plugins -> Add New and upload the plugin files before activating the plugin.
-Go to the WP Auto Build Deploy menu on left sidebar. This is the settings for the plugin, theme you want to deploy to Wordpress.org.
-Please enter Wordpress.org username, plugin/theme folder name, plugin/theme version.
+1. Get WP Auto Build Deploy. Download the plugin files.
+2. In the WP admin, go to Plugins -> Add New and upload the plugin files before activating the plugin.
+3. Go to the WP Auto Build Deploy menu on left sidebar. This is the settings for the plugin, theme you want to deploy to Wordpress.org.
+4. Please enter Wordpress.org username, plugin/theme folder name, plugin/theme version.
 
 Thats it! Now for each push on Git branch, it will trigger build, test, deploy to Wordpress.org.
 
 ## To get started with Travis CI
-Go to Travis-ci.com and Sign up with GitHub.
-Accept the Authorization of Travis CI. You’ll be redirected to GitHub.
-Click the green Activate button, and select the repositories you want to use with Travis CI.
+1. Go to Travis-ci.com and Sign up with GitHub.
+2. Accept the Authorization of Travis CI. You’ll be redirected to GitHub.
+3. Click the green Activate button, and select the repositories you want to use with Travis CI.
